@@ -14,13 +14,13 @@ Console.WriteLine("Введите размер масива");
 int m = Convert.ToInt32(Console.ReadLine());
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-int[,] table = new int[m, n];
+int[,] array = new int[m, n];
 
-FillArray(table);
-PrintArray(table);
-SortNumArray(table);
+FillArray(array);
+PrintArray(array);
+SortNumArray(array);
 Console.WriteLine();
-PrintArray(table);
+PrintArray(array);
 
 void FillArray(int[,] array)
 {
